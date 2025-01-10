@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAavbhTk0fn0CsPqLZDfBvXQAAAAACAAAAAAAQZgAAAAEAACAAAADznIhN3ZI6vGZYCu6bb64PbRZMAvvcPlNXPyqedV0czQAAAAAOgAAAAAIAACAAAACOVqJmCVtjNdhEQ7OlTHyuEd1z+lBfE0dbLjShS6i4QyAAAACSt85t5DX6M4uSA5t8uBmt/ba9ED71yDOXTv+myyvHA0AAAACxRAGig0t5oibyufVUNP+cr6tgsNjgZcG/hmgumbv50XT6JD9AZJ/MilGqp3lGb/eK7Cg+dcvrJVr8xiv51vK9</EncryptedPassword>
+    <History>False|2024-09-22T15:07:05.5291641Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_aad7f6_ecommerce%3bUser Id=db_aad7f6_ecommerce_admin%3bPassword=YOUR_DB_PASSWORD</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="E_Commerce_Backend.DbContexts.Context">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_aad7f6_ecommerce%3bUser Id=db_aad7f6_ecommerce_admin%3bPassword=YOUR_DB_PASSWORD</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

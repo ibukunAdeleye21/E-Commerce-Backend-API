@@ -1,0 +1,221 @@
+2024-10-20 23:14:13.691 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 23:14:14.419 +01:00 [DBG] Hosting starting
+2024-10-20 23:14:14.693 +01:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 23:14:14.746 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-3afd5fd1-af4f-48f5-b597-9a3add07ce7a.xml'.
+2024-10-20 23:14:15.252 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-90707ae5-3b81-43c4-84e7-8ea0fdb68b3f.xml'.
+2024-10-20 23:14:15.286 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-aa3b3234-8017-4f03-9dd0-8cd643d46d79.xml'.
+2024-10-20 23:14:15.327 +01:00 [DBG] Found key {3afd5fd1-af4f-48f5-b597-9a3add07ce7a}.
+2024-10-20 23:14:15.344 +01:00 [DBG] Found key {90707ae5-3b81-43c4-84e7-8ea0fdb68b3f}.
+2024-10-20 23:14:15.346 +01:00 [DBG] Found key {aa3b3234-8017-4f03-9dd0-8cd643d46d79}.
+2024-10-20 23:14:15.358 +01:00 [DBG] Considering key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} with expiration date 2024-12-31 05:50:41Z as default key.
+2024-10-20 23:14:15.365 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:14:15.371 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 23:14:15.376 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:14:15.384 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 23:14:15.388 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 23:14:15.392 +01:00 [DBG] Using key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} as the default key.
+2024-10-20 23:14:15.396 +01:00 [DBG] Key ring with default key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} was loaded during application startup.
+2024-10-20 23:14:19.292 +01:00 [INF] Now listening on: https://localhost:7071
+2024-10-20 23:14:19.294 +01:00 [INF] Now listening on: http://localhost:5113
+2024-10-20 23:14:19.295 +01:00 [DBG] Loaded hosting startup assembly E-Commerce_Backend
+2024-10-20 23:14:19.420 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 23:14:19.456 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 23:14:19.464 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 23:14:19.631 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 23:14:19.640 +01:00 [INF] Hosting environment: Development
+2024-10-20 23:14:19.645 +01:00 [INF] Content root path: C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\E-Commerce_Backend
+2024-10-20 23:14:19.650 +01:00 [DBG] Hosting started
+2024-10-20 23:17:06.187 +01:00 [DBG] Connection id "0HN7HAJN8S8BS" received FIN.
+2024-10-20 23:17:06.300 +01:00 [DBG] Connection id "0HN7HAJN8S8BS" accepted.
+2024-10-20 23:17:06.308 +01:00 [DBG] Connection id "0HN7HAJN8S8BS" started.
+2024-10-20 23:17:06.382 +01:00 [DBG] Connection id "0HN7HAJN8S8BT" accepted.
+2024-10-20 23:17:06.386 +01:00 [DBG] Connection id "0HN7HAJN8S8BT" started.
+2024-10-20 23:17:06.862 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-20 23:17:07.055 +01:00 [DBG] Connection id "0HN7HAJN8S8BS" stopped.
+2024-10-20 23:17:07.061 +01:00 [DBG] Connection id "0HN7HAJN8S8BS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 23:17:07.124 +01:00 [DBG] Connection 0HN7HAJN8S8BT established using the following protocol: "Tls12"
+2024-10-20 23:17:07.275 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7071/api/account/register - null 0
+2024-10-20 23:17:07.332 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 23:17:08.574 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 23:17:08.657 +01:00 [DBG] POST requests are not supported
+2024-10-20 23:17:08.787 +01:00 [DBG] 1 candidate(s) found for the request path '/api/account/register'
+2024-10-20 23:17:08.796 +01:00 [DBG] Endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)' with route pattern 'api/account/register' is valid for the request path '/api/account/register'
+2024-10-20 23:17:08.805 +01:00 [DBG] Request matched endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:08.824 +01:00 [INF] Executing endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:08.950 +01:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Register(E_Commerce_Backend.Model.RegisterDto) on controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend).
+2024-10-20 23:17:08.961 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-20 23:17:08.966 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-20 23:17:08.972 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-20 23:17:08.978 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-20 23:17:08.982 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-20 23:17:08.992 +01:00 [DBG] Executing controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:17:09.992 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-20 23:17:10.045 +01:00 [DBG] Executed controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:17:10.061 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:17:10.067 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' using the name '' in request data ...
+2024-10-20 23:17:10.073 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'null'.
+2024-10-20 23:17:10.076 +01:00 [DBG] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+2024-10-20 23:17:10.080 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:10.083 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:10.087 +01:00 [DBG] Attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:17:10.110 +01:00 [DBG] Done attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:10.120 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter'.
+2024-10-20 23:17:10.135 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-20 23:17:10.145 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-10-20 23:17:10.148 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-20 23:17:10.158 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-20 23:17:10.164 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-20 23:17:10.271 +01:00 [INF] Executed action E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend) in 1277.0642ms
+2024-10-20 23:17:10.277 +01:00 [INF] Executed endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:10.284 +01:00 [INF] HTTP POST /api/account/register responded 415 in 1609.2853 ms
+2024-10-20 23:17:10.291 +01:00 [DBG] Connection id "0HN7HAJN8S8BT" completed keep alive response.
+2024-10-20 23:17:10.301 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7071/api/account/register - 415 null application/problem+json; charset=utf-8 3056.7157ms
+2024-10-20 23:17:22.889 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7071/api/account/register - application/json 10
+2024-10-20 23:17:22.967 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 23:17:22.993 +01:00 [DBG] POST requests are not supported
+2024-10-20 23:17:23.007 +01:00 [DBG] 1 candidate(s) found for the request path '/api/account/register'
+2024-10-20 23:17:23.012 +01:00 [DBG] Endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)' with route pattern 'api/account/register' is valid for the request path '/api/account/register'
+2024-10-20 23:17:23.016 +01:00 [DBG] Request matched endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:23.019 +01:00 [INF] Executing endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:23.022 +01:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Register(E_Commerce_Backend.Model.RegisterDto) on controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend).
+2024-10-20 23:17:23.027 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-20 23:17:23.029 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-20 23:17:23.032 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-20 23:17:23.041 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-20 23:17:23.047 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-20 23:17:23.050 +01:00 [DBG] Executing controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:17:23.078 +01:00 [DBG] Executed controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:17:23.082 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:17:23.085 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' using the name '' in request data ...
+2024-10-20 23:17:23.088 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-20 23:17:23.103 +01:00 [DBG] Connection id "0HN7HAJN8S8BT", Request id "0HN7HAJN8S8BT:00000002": started reading request body.
+2024-10-20 23:17:23.106 +01:00 [DBG] Connection id "0HN7HAJN8S8BT", Request id "0HN7HAJN8S8BT:00000002": done reading request body.
+2024-10-20 23:17:23.114 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'E_Commerce_Backend.Model.RegisterDto'
+2024-10-20 23:17:23.116 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:23.120 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:23.123 +01:00 [DBG] Attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:17:23.130 +01:00 [DBG] Done attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:17:23.133 +01:00 [DBG] The request has model state errors, returning an error response.
+2024-10-20 23:17:23.138 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-10-20 23:17:23.141 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-20 23:17:23.146 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-10-20 23:17:23.147 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-20 23:17:23.152 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-20 23:17:23.163 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-20 23:17:23.186 +01:00 [INF] Executed action E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend) in 135.6628ms
+2024-10-20 23:17:23.189 +01:00 [INF] Executed endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:17:23.193 +01:00 [INF] HTTP POST /api/account/register responded 400 in 197.0616 ms
+2024-10-20 23:17:23.195 +01:00 [DBG] Connection id "0HN7HAJN8S8BT" completed keep alive response.
+2024-10-20 23:17:23.197 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7071/api/account/register - 400 null application/problem+json; charset=utf-8 308.5502ms
+2024-10-20 23:24:36.455 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 23:24:36.817 +01:00 [DBG] Hosting starting
+2024-10-20 23:24:37.036 +01:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 23:24:37.396 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-3afd5fd1-af4f-48f5-b597-9a3add07ce7a.xml'.
+2024-10-20 23:24:37.684 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-90707ae5-3b81-43c4-84e7-8ea0fdb68b3f.xml'.
+2024-10-20 23:24:37.694 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-aa3b3234-8017-4f03-9dd0-8cd643d46d79.xml'.
+2024-10-20 23:24:37.740 +01:00 [DBG] Found key {3afd5fd1-af4f-48f5-b597-9a3add07ce7a}.
+2024-10-20 23:24:37.791 +01:00 [DBG] Found key {90707ae5-3b81-43c4-84e7-8ea0fdb68b3f}.
+2024-10-20 23:24:37.793 +01:00 [DBG] Found key {aa3b3234-8017-4f03-9dd0-8cd643d46d79}.
+2024-10-20 23:24:37.805 +01:00 [DBG] Considering key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} with expiration date 2024-12-31 05:50:41Z as default key.
+2024-10-20 23:24:37.816 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:24:37.833 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 23:24:37.841 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:24:37.853 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 23:24:37.860 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 23:24:37.875 +01:00 [DBG] Using key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} as the default key.
+2024-10-20 23:24:37.890 +01:00 [DBG] Key ring with default key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} was loaded during application startup.
+2024-10-20 23:24:38.830 +01:00 [INF] Now listening on: https://localhost:7071
+2024-10-20 23:24:38.988 +01:00 [INF] Now listening on: http://localhost:5113
+2024-10-20 23:24:39.016 +01:00 [DBG] Loaded hosting startup assembly E-Commerce_Backend
+2024-10-20 23:24:39.026 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 23:24:39.051 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 23:24:39.054 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 23:24:39.388 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 23:24:39.805 +01:00 [INF] Hosting environment: Development
+2024-10-20 23:24:39.854 +01:00 [INF] Content root path: C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\E-Commerce_Backend
+2024-10-20 23:24:39.864 +01:00 [DBG] Hosting started
+2024-10-20 23:33:56.502 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 23:33:56.725 +01:00 [DBG] Hosting starting
+2024-10-20 23:33:56.783 +01:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 23:33:56.803 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-3afd5fd1-af4f-48f5-b597-9a3add07ce7a.xml'.
+2024-10-20 23:33:56.844 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-90707ae5-3b81-43c4-84e7-8ea0fdb68b3f.xml'.
+2024-10-20 23:33:56.848 +01:00 [DBG] Reading data from file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-aa3b3234-8017-4f03-9dd0-8cd643d46d79.xml'.
+2024-10-20 23:33:56.862 +01:00 [DBG] Found key {3afd5fd1-af4f-48f5-b597-9a3add07ce7a}.
+2024-10-20 23:33:56.874 +01:00 [DBG] Found key {90707ae5-3b81-43c4-84e7-8ea0fdb68b3f}.
+2024-10-20 23:33:56.876 +01:00 [DBG] Found key {aa3b3234-8017-4f03-9dd0-8cd643d46d79}.
+2024-10-20 23:33:56.884 +01:00 [DBG] Considering key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} with expiration date 2024-12-31 05:50:41Z as default key.
+2024-10-20 23:33:56.910 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:33:56.916 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 23:33:56.923 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 23:33:56.961 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 23:33:57.055 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 23:33:57.060 +01:00 [DBG] Using key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} as the default key.
+2024-10-20 23:33:57.064 +01:00 [DBG] Key ring with default key {aa3b3234-8017-4f03-9dd0-8cd643d46d79} was loaded during application startup.
+2024-10-20 23:33:57.610 +01:00 [INF] Now listening on: https://localhost:7071
+2024-10-20 23:33:57.612 +01:00 [INF] Now listening on: http://localhost:5113
+2024-10-20 23:33:57.614 +01:00 [DBG] Loaded hosting startup assembly E-Commerce_Backend
+2024-10-20 23:33:57.616 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 23:33:57.618 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 23:33:57.619 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 23:33:57.730 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 23:33:57.744 +01:00 [INF] Hosting environment: Development
+2024-10-20 23:33:57.747 +01:00 [INF] Content root path: C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\E-Commerce_Backend
+2024-10-20 23:33:57.750 +01:00 [DBG] Hosting started
+2024-10-20 23:34:33.787 +01:00 [DBG] Connection id "0HN7HATFFOHT8" received FIN.
+2024-10-20 23:34:33.807 +01:00 [DBG] Connection id "0HN7HATFFOHT8" accepted.
+2024-10-20 23:34:33.810 +01:00 [DBG] Connection id "0HN7HATFFOHT8" started.
+2024-10-20 23:34:33.823 +01:00 [DBG] Connection id "0HN7HATFFOHT9" accepted.
+2024-10-20 23:34:33.825 +01:00 [DBG] Connection id "0HN7HATFFOHT9" started.
+2024-10-20 23:34:33.889 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-20 23:34:34.068 +01:00 [DBG] Connection id "0HN7HATFFOHT8" stopped.
+2024-10-20 23:34:34.075 +01:00 [DBG] Connection id "0HN7HATFFOHT8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 23:34:34.114 +01:00 [DBG] Connection 0HN7HATFFOHT9 established using the following protocol: "Tls12"
+2024-10-20 23:34:34.182 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7071/api/account/register - application/json 10
+2024-10-20 23:34:34.205 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 23:34:34.370 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 23:34:34.408 +01:00 [DBG] POST requests are not supported
+2024-10-20 23:34:34.461 +01:00 [DBG] 1 candidate(s) found for the request path '/api/account/register'
+2024-10-20 23:34:34.468 +01:00 [DBG] Endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)' with route pattern 'api/account/register' is valid for the request path '/api/account/register'
+2024-10-20 23:34:34.473 +01:00 [DBG] Request matched endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:34:34.481 +01:00 [INF] Executing endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:34:34.545 +01:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Register(E_Commerce_Backend.Model.RegisterDto) on controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend).
+2024-10-20 23:34:34.553 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-20 23:34:34.557 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-20 23:34:34.559 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-20 23:34:34.562 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-20 23:34:34.564 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-20 23:34:34.570 +01:00 [DBG] Executing controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:34:35.954 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-20 23:34:36.009 +01:00 [DBG] Executed controller factory for controller E_Commerce_Backend.Controllers.AccountController (E-Commerce_Backend)
+2024-10-20 23:34:36.026 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:34:36.033 +01:00 [DBG] Attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' using the name '' in request data ...
+2024-10-20 23:34:36.043 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-20 23:34:36.066 +01:00 [DBG] Connection id "0HN7HATFFOHT9", Request id "0HN7HATFFOHT9:00000001": started reading request body.
+2024-10-20 23:34:36.070 +01:00 [DBG] Connection id "0HN7HATFFOHT9", Request id "0HN7HATFFOHT9:00000001": done reading request body.
+2024-10-20 23:34:36.078 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'E_Commerce_Backend.Model.RegisterDto'
+2024-10-20 23:34:36.081 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:34:36.083 +01:00 [DBG] Done attempting to bind parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:34:36.087 +01:00 [DBG] Attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto' ...
+2024-10-20 23:34:36.106 +01:00 [DBG] Done attempting to validate the bound parameter 'register' of type 'E_Commerce_Backend.Model.RegisterDto'.
+2024-10-20 23:34:36.111 +01:00 [DBG] The request has model state errors, returning an error response.
+2024-10-20 23:34:36.114 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-10-20 23:34:36.121 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-20 23:34:36.127 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-10-20 23:34:36.129 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-20 23:34:36.136 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-20 23:34:36.140 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-20 23:34:36.217 +01:00 [INF] Executed action E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend) in 1641.5551ms
+2024-10-20 23:34:36.227 +01:00 [INF] Executed endpoint 'E_Commerce_Backend.Controllers.AccountController.Register (E-Commerce_Backend)'
+2024-10-20 23:34:36.238 +01:00 [INF] HTTP POST /api/account/register responded 400 in 1820.3423 ms
+2024-10-20 23:34:36.242 +01:00 [DBG] Connection id "0HN7HATFFOHT9" completed keep alive response.
+2024-10-20 23:34:36.254 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7071/api/account/register - 400 null application/problem+json; charset=utf-8 2078.8942ms

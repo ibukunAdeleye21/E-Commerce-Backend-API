@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\E-Commerce_Backend\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\E-Commerce_Backend\obj\Release\net8.0\PubTmp\EFSQLScripts\E_Commerce_Backend.DbContexts.Context.sql" />
+</sitemanifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAavbhTk0fn0CsPqLZDfBvXQAAAAACAAAAAAAQZgAAAAEAACAAAACv2F/clhvnDCwAFxbj2q2KG5pQDu2jdWUh1Usu6gNFSAAAAAAOgAAAAAIAACAAAAAmBF+yjD/oyFGBlcex6zXXrsYJuAI1KFqDUe/hH/+TJiAAAACN1dAP53noCIDmLKzUAKiooI2AtFxaYm+tusF81K757kAAAADwkbZv+3vYUrxw7SDQWgNMJ7t8NP3fffb4wEqM40WhvnU1yGwk1i2NuFkiofY9pTr2bnKiYVwctxDgSmy8Hq3Y</EncryptedPassword>
+    <History>True|2024-09-22T14:29:38.8587781Z||;True|2024-09-22T15:28:06.8030049+01:00||;True|2024-09-22T15:15:02.8824146+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_aad7f6_ecommerce%3bUser Id=db_aad7f6_ecommerce_admin%3bPassword=ibukun2166</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

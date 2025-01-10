@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\bin\Debug\net8.0\EmailService.deps.json
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\bin\Debug\net8.0\EmailService.dll
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\bin\Debug\net8.0\EmailService.pdb
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfo.cs
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.dll
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\refint\EmailService.dll
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\EmailService.pdb
+C:\Users\USER\Desktop\Angular\e-commerce\E-commerce Backend\E-Commerce_Backend\EmailService\obj\Debug\net8.0\ref\EmailService.dll

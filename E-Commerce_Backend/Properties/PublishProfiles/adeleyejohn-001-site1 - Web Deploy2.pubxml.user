@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAavbhTk0fn0CsPqLZDfBvXQAAAAACAAAAAAAQZgAAAAEAACAAAAA9zijSoGsAgj3ChnNifrGPIrC+oEprD/Rbj3tQbYQucQAAAAAOgAAAAAIAACAAAAAUtPGVko2CvvJLjMbfuqLiPjyhif8mFJtsO9oeNYgQLyAAAADQ2mPC7Lptw4czdY1ID01QsHF2L3Chq0TbRZ0h5RtonkAAAAC2HzHOI6EFnmll2FnpilW75WSPPfXXVwRCcRlY77z4B6tnitYVbePjvimiNOFTb1YVQhEoHfC//1Yd1v/BPCQV</EncryptedPassword>
+    <History>False|2024-10-15T11:52:34.7134021Z||;False|2024-10-15T12:41:31.0980143+01:00||;True|2024-10-03T14:10:04.8643426+01:00||;True|2024-10-03T09:26:32.2336434+01:00||;True|2024-10-03T08:25:34.1479358+01:00||;True|2024-09-22T19:11:52.2916689+01:00||;True|2024-09-22T18:36:32.3188555+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_aad81c_ecommerce%3bUser Id=db_aad81c_ecommerce_admin%3bPassword=ibukun2166</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="E_Commerce_Backend.DbContexts.Context">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_aad81c_ecommerce%3bUser Id=db_aad81c_ecommerce_admin%3bPassword=ibukun2166</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
